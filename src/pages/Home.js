@@ -1,10 +1,13 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const Home = () => {
   return (
-    <div className='m-2'>
-      <h2>Home</h2>
-    </div>
+    <Layout>
+      <div className='w-full h-[100vh]'>
+        <h1>HOme</h1>
+      </div>
+    </Layout>
   )
 }
 
